@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CompleteOrderFor_PreviouslyCartAddedProduct">
+  <test preserve-order="true" name="Test">
+    <classes>
+	  <class name="tests.Test_001_HomePage"/>
+	  <class name="tests.Test_002_SignUpWithGoogle"/>
+      <class name="tests.Test_004_MyCartPage"/>
+      <class name="tests.Test_005_ShippingPage"/>
+      <class name="tests.Test_006_Logout"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- CompleteOrderFor_PreviouslyAddedProduct -->

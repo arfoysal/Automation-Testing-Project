@@ -1,0 +1,135 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "Test_001_HomePage",
+      "children" : [ {
+        "name" : "homePageTest",
+        "uid" : "d5b0bb6e7ea82f88",
+        "parentUid" : "72c6809145b89052464c2da838880166",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641993395984,
+          "stop" : 1641993407170,
+          "duration" : 11186
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "72c6809145b89052464c2da838880166"
+    }, {
+      "name" : "Test_002_SignUpWithGoogle",
+      "children" : [ {
+        "name" : "signUpWithGoogle",
+        "uid" : "db13a1c856af88ef",
+        "parentUid" : "d8ff6e99cdd9a19ab2e94abc453dd0c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641993407385,
+          "stop" : 1641993423624,
+          "duration" : 16239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d8ff6e99cdd9a19ab2e94abc453dd0c9"
+    }, {
+      "name" : "Test_003_SelectProduct",
+      "children" : [ {
+        "name" : "selectProduct",
+        "uid" : "6c97ad1a32a3edb6",
+        "parentUid" : "1cd5d65d72bc756a40fc5e7e021bbd81",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641993423641,
+          "stop" : 1641993446462,
+          "duration" : 22821
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1cd5d65d72bc756a40fc5e7e021bbd81"
+    }, {
+      "name" : "Test_004_MyCartPage",
+      "children" : [ {
+        "name" : "myCartPage",
+        "uid" : "a1b438bf279a73c0",
+        "parentUid" : "fe3818c5cd48971676031e779c26ca1b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641993446478,
+          "stop" : 1641993448403,
+          "duration" : 1925
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fe3818c5cd48971676031e779c26ca1b"
+    }, {
+      "name" : "Test_005_ShippingPage",
+      "children" : [ {
+        "name" : "shippingPage",
+        "uid" : "ec8b2346c275a9a0",
+        "parentUid" : "7f56fee75984d38ad2d6ca2afc2b6964",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641993448408,
+          "stop" : 1641993472965,
+          "duration" : 24557
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7f56fee75984d38ad2d6ca2afc2b6964"
+    }, {
+      "name" : "Test_006_Logout",
+      "children" : [ {
+        "name" : "logoutTest",
+        "uid" : "90a695317c10d2d4",
+        "parentUid" : "075c0b88a845757d4999a56df502b99b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641993472972,
+          "stop" : 1641993484241,
+          "duration" : 11269
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "075c0b88a845757d4999a56df502b99b"
+    } ],
+    "uid" : "bf49149a3821e34f7608bb6885d52868"
+  } ]
+}

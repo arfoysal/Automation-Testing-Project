@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AddToCart_a_Targeted_Product">
+  <test preserve-order="true" name="Product">
+    <classes>
+      <class name="tests.Test_001_HomePage"/>
+	  <class name="tests.Test_003_SelectProduct"/>
+	  <class name="tests.Test_004_MyCartPage"/>
+    </classes>
+  </test> <!-- Product -->
+</suite> <!-- SelectProduct -->

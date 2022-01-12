@@ -1,0 +1,390 @@
+{
+  "uid" : "ec8b2346c275a9a0",
+  "name" : "Shipping page test",
+  "fullName" : "tests.Test_005_ShippingPage.shippingPage",
+  "historyId" : "3a27df2b168881f2f03bd6c5f5e2ffad",
+  "time" : {
+    "start" : 1641993448408,
+    "stop" : 1641993472965,
+    "duration" : 24557
+  },
+  "description" : "Test Description: This test will try to browse to my shipping page then fill up the delivery information form with book recipient info ",
+  "descriptionHtml" : "<p>Test Description: This test will try to browse to my shipping page then fill up the delivery information form with book recipient info</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1641993382282,
+      "stop" : 1641993395655,
+      "duration" : 13373
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description: This test will try to browse to my shipping page then fill up the delivery information form with book recipient info ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click on Go to shipping page button and wait for page load",
+      "time" : {
+        "start" : 1641993448409,
+        "stop" : 1641993450257,
+        "duration" : 1848
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Taking a screenshot for Shipping page",
+      "time" : {
+        "start" : 1641993450257,
+        "stop" : 1641993450523,
+        "duration" : 266
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d0ad37b9c387057a",
+        "name" : "Shipping page",
+        "source" : "d0ad37b9c387057a.png",
+        "type" : "image/png",
+        "size" : 109489
+      } ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Shipping page"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Collect actual current page title ",
+      "time" : {
+        "start" : 1641993450524,
+        "stop" : 1641993450535,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Fill up the delivery information form with book recipient information",
+      "time" : {
+        "start" : 1641993450535,
+        "stop" : 1641993464562,
+        "duration" : 14027
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check actual input text in  name field ",
+      "time" : {
+        "start" : 1641993464564,
+        "stop" : 1641993464604,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "name"
+      }, {
+        "name" : "element",
+        "value" : "By.xpath: (//input[@id='name'])[1]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check actual input text in  phone Number field ",
+      "time" : {
+        "start" : 1641993464605,
+        "stop" : 1641993464630,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "phone Number"
+      }, {
+        "name" : "element",
+        "value" : "By.xpath: //input[@id='phone']"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check actual info in  country field ",
+      "time" : {
+        "start" : 1641993464630,
+        "stop" : 1641993464698,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "fieldname",
+        "value" : "country"
+      }, {
+        "name" : "elemnt",
+        "value" : "By.cssSelector: #js--country"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check actual info in  country not selected one field ",
+      "time" : {
+        "start" : 1641993464698,
+        "stop" : 1641993464742,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "fieldname",
+        "value" : "country not selected one"
+      }, {
+        "name" : "elemnt",
+        "value" : "By.cssSelector: #js--country"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check actual info in  city field ",
+      "time" : {
+        "start" : 1641993464742,
+        "stop" : 1641993465276,
+        "duration" : 534
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "fieldname",
+        "value" : "city"
+      }, {
+        "name" : "elemnt",
+        "value" : "By.cssSelector: #js--city"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check actual info in  Area field ",
+      "time" : {
+        "start" : 1641993465276,
+        "stop" : 1641993465386,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "fieldname",
+        "value" : "Area"
+      }, {
+        "name" : "elemnt",
+        "value" : "By.cssSelector: #js--area"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check actual info in  zone field ",
+      "time" : {
+        "start" : 1641993465386,
+        "stop" : 1641993465469,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "fieldname",
+        "value" : "zone"
+      }, {
+        "name" : "elemnt",
+        "value" : "By.cssSelector: #js--zone"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Taking a screenshot for Shipping page after provide requre information",
+      "time" : {
+        "start" : 1641993465469,
+        "stop" : 1641993465662,
+        "duration" : 193
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c86db1e0a115534b",
+        "name" : "Shipping page after provide requre information",
+        "source" : "c86db1e0a115534b.png",
+        "type" : "image/png",
+        "size" : 120036
+      } ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Shipping page after provide requre information"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Scroll down to Confirm order button and higlight it",
+      "time" : {
+        "start" : 1641993465662,
+        "stop" : 1641993472723,
+        "duration" : 7061
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Taking a screenshot for Shipping page after heighlight the Confirm Order",
+      "time" : {
+        "start" : 1641993472724,
+        "stop" : 1641993472963,
+        "duration" : 239
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4c683d59b499dbdb",
+        "name" : "Shipping page after heighlight the Confirm Order",
+        "source" : "4c683d59b499dbdb.png",
+        "type" : "image/png",
+        "size" : 152564
+      } ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Shipping page after heighlight the Confirm Order"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1641993484357,
+      "stop" : 1641993484990,
+      "duration" : 633
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.Test_005_ShippingPage"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.Test_005_ShippingPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "shippingPage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "My-Suite"
+  }, {
+    "name" : "suite",
+    "value" : "CompleteProcessOfOrder"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.Test_005_ShippingPage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-JFJ7DOJ"
+  }, {
+    "name" : "thread",
+    "value" : "15448@DESKTOP-JFJ7DOJ.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ec8b2346c275a9a0.json",
+  "parameterValues" : [ ]
+}

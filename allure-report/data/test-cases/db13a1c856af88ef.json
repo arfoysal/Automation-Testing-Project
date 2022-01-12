@@ -1,0 +1,234 @@
+{
+  "uid" : "db13a1c856af88ef",
+  "name" : "SignUp with Google test",
+  "fullName" : "tests.Test_002_SignUpWithGoogle.signUpWithGoogle",
+  "historyId" : "5d00f5efa071094f8be847772efbf0b0",
+  "time" : {
+    "start" : 1641993407385,
+    "stop" : 1641993423624,
+    "duration" : 16239
+  },
+  "description" : "Test Description: This test will try to Sign up with Google for Rokomari. It will verify every step and save screenshots for future use.",
+  "descriptionHtml" : "<p>Test Description: This test will try to Sign up with Google for Rokomari. It will verify every step and save screenshots for future use.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1641993382282,
+      "stop" : 1641993395655,
+      "duration" : 13373
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description: This test will try to Sign up with Google for Rokomari. It will verify every step and save screenshots for future use.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Hover on the sign-in button then click the Google button",
+      "time" : {
+        "start" : 1641993407385,
+        "stop" : 1641993410025,
+        "duration" : 2640
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Collect actual current page message",
+      "time" : {
+        "start" : 1641993410068,
+        "stop" : 1641993410135,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Taking a screenshot for Google Login page",
+      "time" : {
+        "start" : 1641993410136,
+        "stop" : 1641993410399,
+        "duration" : 263
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d197a9a4e52fa934",
+        "name" : "Google Login page",
+        "source" : "d197a9a4e52fa934.png",
+        "type" : "image/png",
+        "size" : 55811
+      } ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Google Login page"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Complete Signup with email and password",
+      "time" : {
+        "start" : 1641993410399,
+        "stop" : 1641993418147,
+        "duration" : 7748
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Collect user name after completing the successful sign-up",
+      "time" : {
+        "start" : 1641993421695,
+        "stop" : 1641993422118,
+        "duration" : 423
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Highlight user name after successful sign-up",
+      "time" : {
+        "start" : 1641993422118,
+        "stop" : 1641993422135,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Taking a screenshot for Login_Successful",
+      "time" : {
+        "start" : 1641993423136,
+        "stop" : 1641993423623,
+        "duration" : 487
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "399d114e8c2cea35",
+        "name" : "Login_Successful",
+        "source" : "399d114e8c2cea35.png",
+        "type" : "image/png",
+        "size" : 857905
+      } ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Login_Successful"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1641993484357,
+      "stop" : 1641993484990,
+      "duration" : 633
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.Test_002_SignUpWithGoogle"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.Test_002_SignUpWithGoogle"
+  }, {
+    "name" : "testMethod",
+    "value" : "signUpWithGoogle"
+  }, {
+    "name" : "parentSuite",
+    "value" : "My-Suite"
+  }, {
+    "name" : "suite",
+    "value" : "CompleteProcessOfOrder"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.Test_002_SignUpWithGoogle"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-JFJ7DOJ"
+  }, {
+    "name" : "thread",
+    "value" : "15448@DESKTOP-JFJ7DOJ.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db13a1c856af88ef.json",
+  "parameterValues" : [ ]
+}

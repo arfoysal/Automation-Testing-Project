@@ -1,0 +1,139 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "My-Suite",
+    "children" : [ {
+      "name" : "CompleteProcessOfOrder",
+      "children" : [ {
+        "name" : "tests.Test_001_HomePage",
+        "children" : [ {
+          "name" : "Open rokomari.com in the browser and perform Tests",
+          "uid" : "d5b0bb6e7ea82f88",
+          "parentUid" : "5aeef86ea0d5720b6647d6f41564f78e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1641993395984,
+            "stop" : 1641993407170,
+            "duration" : 11186
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5aeef86ea0d5720b6647d6f41564f78e"
+      }, {
+        "name" : "tests.Test_002_SignUpWithGoogle",
+        "children" : [ {
+          "name" : "SignUp with Google test",
+          "uid" : "db13a1c856af88ef",
+          "parentUid" : "4a1011df3f9f065d36f3786839504300",
+          "status" : "passed",
+          "time" : {
+            "start" : 1641993407385,
+            "stop" : 1641993423624,
+            "duration" : 16239
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4a1011df3f9f065d36f3786839504300"
+      }, {
+        "name" : "tests.Test_003_SelectProduct",
+        "children" : [ {
+          "name" : "Select a book by filtering writer and category",
+          "uid" : "6c97ad1a32a3edb6",
+          "parentUid" : "5f53dff4005ab7e64442d13055d652bf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1641993423641,
+            "stop" : 1641993446462,
+            "duration" : 22821
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5f53dff4005ab7e64442d13055d652bf"
+      }, {
+        "name" : "tests.Test_004_MyCartPage",
+        "children" : [ {
+          "name" : "My cart page",
+          "uid" : "a1b438bf279a73c0",
+          "parentUid" : "036d22bf8a9a7aec8fa33d18ca17011e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1641993446478,
+            "stop" : 1641993448403,
+            "duration" : 1925
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "036d22bf8a9a7aec8fa33d18ca17011e"
+      }, {
+        "name" : "tests.Test_005_ShippingPage",
+        "children" : [ {
+          "name" : "Shipping page test",
+          "uid" : "ec8b2346c275a9a0",
+          "parentUid" : "efc2785999023ad232acf3c90ae23753",
+          "status" : "passed",
+          "time" : {
+            "start" : 1641993448408,
+            "stop" : 1641993472965,
+            "duration" : 24557
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "efc2785999023ad232acf3c90ae23753"
+      }, {
+        "name" : "tests.Test_006_Logout",
+        "children" : [ {
+          "name" : "Sign Out from rokomari.com",
+          "uid" : "90a695317c10d2d4",
+          "parentUid" : "3f0f4796482fe06f1d45867aeb36a96d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1641993472972,
+            "stop" : 1641993484241,
+            "duration" : 11269
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3f0f4796482fe06f1d45867aeb36a96d"
+      } ],
+      "uid" : "5df51a03e232a7f28e0b1b491aba9a01"
+    } ],
+    "uid" : "42f90e9c45602f5bb49d697de3c1fb25"
+  } ]
+}
