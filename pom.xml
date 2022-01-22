@@ -3,11 +3,11 @@
 	  <modelVersion>4.0.0</modelVersion>
 	
 	  <groupId>arfoysal.com</groupId>
-	  <artifactId>Rokomari.com_Automation_using_POM</artifactId>
+	  <artifactId>Automation-Testing-Project</artifactId>
 	  <version>0.0.1-SNAPSHOT</version>
 	  <packaging>jar</packaging>
 	
-	  <name>Rokomari.com_Automation_using_POM</name>
+	  <name>Automation-Testing-Project</name>
 	  <url>http://maven.apache.org</url>
 	
 	  <properties>
