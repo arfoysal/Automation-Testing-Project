@@ -20,24 +20,26 @@ public class Take_Screenshot {
 
 	public void screenshot(String name) throws IOException {
 		String strtime = setdate();
-		File scFile = ((TakesScreenshot)PageDriver.getCurrentDriver()).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(scFile,new File("./image/"+strtime+"_"+name+".png"));
+		File scFile = ((TakesScreenshot) PageDriver.getCurrentDriver()).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(scFile, new File("./image/" + strtime + "_" + name + ".png"));
 	}
+
 	public void screenshot(String name, WebElement element) throws IOException {
 		String strtime = setdate();
 		File scFile = element.getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(scFile,new File("./image/"+strtime+name+".png"));
+		FileUtils.copyFile(scFile, new File("./image/" + strtime + name + ".png"));
 	}
-	
+
 	public String setdate() {
 		Date date = Calendar.getInstance().getTime();
 		SimpleDateFormat formatter = new SimpleDateFormat("yyyymmdd_HHmmss");
 		String strdate = formatter.format(date);
 		return strdate;
 	}
+
 	@Step("Taking a screenshot for {0}")
 	public void takeScreenShot(String name) {
-		Allure.addAttachment(name, new ByteArrayInputStream(((TakesScreenshot)PageDriver.getCurrentDriver()).getScreenshotAs(OutputType.BYTES) ));
+		Allure.addAttachment(name, new ByteArrayInputStream(
+				((TakesScreenshot) PageDriver.getCurrentDriver()).getScreenshotAs(OutputType.BYTES)));
 	}
 }
- 

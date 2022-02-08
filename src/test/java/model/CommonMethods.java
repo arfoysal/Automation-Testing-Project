@@ -13,10 +13,11 @@ import org.openqa.selenium.support.ui.Select;
 import driverPackage.PageDriver;
 
 public class CommonMethods {
-	
+
 	public String currentPageUrl() {
 		return PageDriver.getCurrentDriver().getCurrentUrl();
 	}
+
 	public String getTitle() {
 		return PageDriver.getCurrentDriver().getTitle();
 	}
@@ -24,24 +25,25 @@ public class CommonMethods {
 	public void clickOnButton(By btn) {
 		PageDriver.getCurrentDriver().findElement(btn).click();
 	}
+
 	public void clickOnNthNumberButton(By btn, int position) {
-		List<WebElement> allElements =  PageDriver.getCurrentDriver().findElements(btn);
-		allElements.get(position-1).click();
-		
+		List<WebElement> allElements = PageDriver.getCurrentDriver().findElements(btn);
+		allElements.get(position - 1).click();
+
 	}
 
 	public String getText(By element) {
 		return PageDriver.getCurrentDriver().findElement(element).getText();
 	}
-	
+
 	public int getSize(By element) {
 		return PageDriver.getCurrentDriver().findElements(element).size();
 	}
-	
+
 	public String getAttributeValue(By element, String attribute) {
 		return PageDriver.getCurrentDriver().findElement(element).getAttribute(attribute);
 	}
-	
+
 	public List<WebElement> getEls(By element) {
 		return PageDriver.getCurrentDriver().findElements(element);
 	}
@@ -51,89 +53,89 @@ public class CommonMethods {
 		PageDriver.getCurrentDriver().findElement(element).sendKeys(value);
 
 	}
-	
-	
+
 	public void hover(By element) {
-		WebElement btn= PageDriver.getCurrentDriver().findElement(element);
+		WebElement btn = PageDriver.getCurrentDriver().findElement(element);
 		Actions actions = new Actions(PageDriver.getCurrentDriver());
-		actions.clickAndHold(btn).build().perform();	
+		actions.clickAndHold(btn).build().perform();
 	}
-	
+
 	public void shadowDomPopUp(By host, By btn) {
 		WebElement shadowDomHostElement = PageDriver.getCurrentDriver().findElement(host);
-		// Finding the ShadowRoot in a WebElement 
+		// Finding the ShadowRoot in a WebElement
 		SearchContext context = shadowDomHostElement.getShadowRoot();
 		// finding the targeted element
 		context.findElement(btn).click();
 	}
-	
+
 	public void selectitem(By element, String visibleText) {
 		Select selectItems = new Select(PageDriver.getCurrentDriver().findElement(element));
 		selectItems.selectByVisibleText(visibleText);
-		
+
 	}
+
 	public String currentlySelecteditem(By element) {
 		Select selectItems = new Select(PageDriver.getCurrentDriver().findElement(element));
 		return selectItems.getFirstSelectedOption().getText();
-		
+
 	}
-	
-	
+
 	public void listitem(By element, String visibleText) {
-		List<WebElement> listItems =  PageDriver.getCurrentDriver().findElements(element);
-		for(WebElement item : listItems) {
-			if(item.getText().equals(visibleText)) {
+		List<WebElement> listItems = PageDriver.getCurrentDriver().findElements(element);
+		for (WebElement item : listItems) {
+			if (item.getText().equals(visibleText)) {
 				item.click();
-				break;	
+				break;
 			}
 		}
 	}
+
 	public Boolean itemSelecteStatus(By element, String value) {
-		List<WebElement> listItems =  PageDriver.getCurrentDriver().findElements(element);
-		for(WebElement item : listItems) {
-			if(item.getAttribute("value").equals(value)) {
-				return item.isSelected();	
+		List<WebElement> listItems = PageDriver.getCurrentDriver().findElements(element);
+		for (WebElement item : listItems) {
+			if (item.getAttribute("value").equals(value)) {
+				return item.isSelected();
 			}
 		}
 		return false;
 	}
-	
+
 	public void clickOnAButtonJs(String script) {
 		JavascriptExecutor js = (JavascriptExecutor) PageDriver.getCurrentDriver();
-		//WebElement el = (WebElement)(js.executeScript("return "+ script));
-		//js.executeScript("arguments[0].click();" ,el);
-		js.executeScript(script+".click();");
+		// WebElement el = (WebElement)(js.executeScript("return "+ script));
+		// js.executeScript("arguments[0].click();" ,el);
+		js.executeScript(script + ".click();");
 	}
+
 	public void highlighter(By element) {
 		WebElement el = PageDriver.getCurrentDriver().findElement(element);
 		JavascriptExecutor js = (JavascriptExecutor) PageDriver.getCurrentDriver();
 		js.executeScript("arguments[0].setAttribute('style','border:2px solid red;background: beige');", el);
-		
+
 	}
+
 	public void scorllToElement(By element) {
 		WebElement el = PageDriver.getCurrentDriver().findElement(element);
 		JavascriptExecutor js = (JavascriptExecutor) PageDriver.getCurrentDriver();
 		js.executeScript("arguments[0].scrollIntoView(true);", el);
 	}
-	
-	public void scorllInsideElement(String cssLocator,int offsetX, int offsetY ) {
+
+	public void scorllInsideElement(String cssLocator, int offsetX, int offsetY) {
 		JavascriptExecutor js = (JavascriptExecutor) PageDriver.getCurrentDriver();
-		js.executeScript("document.querySelector('"+cssLocator+"').scrollBy("+offsetX+","+offsetY+");");
+		js.executeScript("document.querySelector('" + cssLocator + "').scrollBy(" + offsetX + "," + offsetY + ");");
 	}
-	
-	public void windows() {
-		 Set<String> handles = PageDriver.getCurrentDriver().getWindowHandles();
-	}
+
+	/*
+	 * public void windows() { Set<String> handles =
+	 * PageDriver.getCurrentDriver().getWindowHandles(); }
+	 */
 	public void windowHandle() {
 		String parent = PageDriver.getCurrentDriver().getWindowHandle();
 		Set<String> handles = PageDriver.getCurrentDriver().getWindowHandles();
-		for(String handle : handles) {
-			if(!handle.equals(parent)) {
+		for (String handle : handles) {
+			if (!handle.equals(parent)) {
 				PageDriver.getCurrentDriver().switchTo().window(handle);
 			}
 		}
-		
 	}
-
-
 }

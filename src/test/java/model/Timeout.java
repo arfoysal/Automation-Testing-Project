@@ -40,7 +40,7 @@ public class Timeout {
 	}
 	public void waitForPageLoad() {
 		wait = new WebDriverWait(PageDriver.getCurrentDriver(), Duration.ofSeconds(30));
-		wait.until((ExpectedCondition<Boolean>) wd -> 
+		wait.until((ExpectedCondition<Boolean>) wd ->  
 				((JavascriptExecutor) wd ).executeScript("return document.readyState;")
 				.equals("complete"));
 	}
